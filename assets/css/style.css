@@ -1,0 +1,246 @@
+  .section-heading{
+   font-weight: lighter;
+   
+   color: var(--main-headingcolor);
+}
+.section-into{
+    margin: 10px 0 0 0;
+    font-size: 16px;
+     color:   rgb(179, 174, 174);
+}
+:root{
+    --btncolor:#2487ce;
+    --main-headingcolor:#124265;
+}
+a span{
+    text-decoration:none ;
+}
+ul{
+    list-style: none;
+}
+.main-heading{
+    margin-top: 85px;
+}
+.nav-item i{
+    color: var(--main-headingcolor);
+}
+.about-icon i{
+    color: var(--btncolor);
+}
+.navbar-brand{
+    color: var(--main-headingcolor);
+}
+.section-heading{
+    color: var(--main-headingcolor);
+}
+.icon {
+    color: var(--btncolor);
+}
+.lorem{
+    color: var(--main-headingcolor);
+}
+.para{
+    color: rgb(179, 174, 174);
+}
+.navbar-nav a:hover{
+    color: var(--btncolor);
+
+}
+.btn-primary{
+    background-color: var(--btncolor);
+}
+
+header{
+    background-image: url(../images/hero-bg-abstract.jpg);
+}
+.box-1 span{
+    color: var(--btncolor);
+    font-weight: bold;
+}
+.box-1 p{
+    color: var(--headingColor);
+}
+.aboutimage img{
+    width: 600px;
+}
+.aboutcontent h3{
+    color:var(--main-headingcolor);
+}
+#callto{
+    background-color: var(--btncolor);
+}
+.card-body{
+    width: 70%;
+   height:84px ;
+}
+.portfolio-icon{
+    color: #797373;
+}
+.testbox p {
+    background-color: #f3f3f3;
+
+    width: 300px;
+    height: 200px;
+
+    line-height: 25px;
+}
+.col i{
+   color: var(--btncolor);
+}
+
+.testbox img {
+    border-radius: 50%;
+
+    width: 90px;
+    border: 6px solid white
+}
+.team {
+    position: absolute;
+    left: 0;
+    bottom: 30px;
+    right: 0;
+    opacity: 0;
+    transition: ease-in-out 0.3s;
+    text-align: center;
+    
+    
+}
+
+.team a {
+    text-decoration: none;
+    color: #444444;
+    background-color:rgb(179, 174, 174); ;
+}
+.section-call h2{
+    color: white !important;
+}
+.section-call p{
+    color: white !important;
+}
+.app-box {
+    cursor: pointer;   
+}
+
+.app-box img {
+    width: 300px;
+}
+.app-box-hover {
+    background-color: #f4f4f4;
+    opacity: 0;
+       transition: 0.5s ease-in-out;
+    width:300px ;
+    height: 60px;
+}
+
+.app-box:hover .app-box-hover {
+    opacity: 1;
+    transform: translateY(-15px);
+}
+.img-hover-group {
+      position: relative;
+      overflow: hidden;
+    }
+
+    .img-hover-icons {
+      position: absolute;
+      bottom: 10px;
+      left: 50%;
+      transform: translateX(-50%);
+      opacity: 0;
+      transition: opacity 0.3s;
+      z-index: 2;
+      
+    }
+
+    .img-hover-group:hover .img-hover-icons {
+      opacity: 1;
+      
+      
+    }
+.mid-body{
+    background-color: var(--btncolor);
+}
+#faq {
+    background-color: #f5faff;
+}
+
+.accordion-button {
+    font-weight: bold;
+    color: #124265;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: var(--btncolor);
+    color: #fff;
+}
+
+.accordion-body {
+    color: #444;
+    text-align: left;
+}
+
+.accordion-item {
+    border-radius: 6px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+#contact {
+    background-color: #f8f9fa;
+}
+
+.contact-info-form i {
+    background-color: var(--btncolor);
+    color: white;
+}
+
+.contact-info-form h5 {
+    color: var(--main-headingcolor);
+    margin-bottom: 5px;
+}
+
+.contact-info-form p {
+   
+    color: #444;
+}
+
+.contact-info-form input,
+.contact-info-form textarea {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.contact-info-form button {
+    background-color: var(--btncolor);
+    color: #fff;
+    border: none;
+}
+
+.contact-info-form button:hover {
+    opacity: 0.9;
+}
+.section-heading {
+  font-size: 22px;
+  font-weight: bold;
+  color: var(--main-headingcolor);
+}
+.icon {
+  color: var(--btncolor);
+  margin-right: 8px;
+  font-size: 18px;
+}
+.card{
+    height: 550px;
+}
+
+.bg-featured {
+  background-color: var(--btncolor);
+  border-radius: 8px;
+}
+#Services I{
+    color: var(--btncolor);
+}
+.service-icon:hover{
+      background-color: var(--btncolor)!important;
+color: white !important;
+}
